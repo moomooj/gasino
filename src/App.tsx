@@ -46,7 +46,7 @@ export default function App() {
   };
 
   return (
-    <BrowserRouter basename="/casino">
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         {/* 손님용 보기 전용 디스플레이 */}
         <Route path="/" element={<RouletteBoard spins={spins} />} />
