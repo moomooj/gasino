@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://moomooj.github.io/casino",
+  "homepage": "https://moomooj.github.io/gasino",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
